@@ -52,6 +52,7 @@ spec:
       {{- if .Values.serviceAccount.create }}
       serviceAccountName: {{ include "tpl.serviceAccountName" . }}
       {{- end }}
+      shareProcessNamespace: true
       initContainers:
       {{- with .Values.extraInitContainers }}
         {{- toYaml . | nindent 8 }}
