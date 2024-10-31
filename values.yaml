@@ -27,7 +27,7 @@ image:
   # -- The Docker registry
   registry: docker.io
   # -- Docker image repository
-  repository: leonardozwirtes/collector-faro-logs-go
+  repository: leonardozwirtes/faro-collector
   # -- Image pull policy 
   pullPolicy: Always
   # -- Overrides the image tag whose default is the chart appVersion.
