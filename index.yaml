@@ -3,12 +3,12 @@ entries:
   faro-collector:
   - apiVersion: v2
     appVersion: 1.19.0
-    created: "2024-10-03T17:07:59.015130679-03:00"
+    created: "2024-10-31T11:42:50.812724678-03:00"
     description: A Helm chart for Kubernetes
-    digest: 9bdc248a8626e504c5495f674b2d526c4b74e26a99fae9437ca3d30df0f121e1
+    digest: 1d4f3b7b8dba2fa0cf160ab96b63d54eafa84f03bbc22404be0860a66faf7513
     name: faro-collector
     type: application
     urls:
-    - faro-collector-0.1.0.tgz
-    version: 0.1.0
-generated: "2024-10-03T17:07:59.014611217-03:00"
+    - faro-collector-1.1.0.tgz
+    version: 1.1.0
+generated: "2024-10-31T11:42:50.812045275-03:00"
